@@ -4,10 +4,20 @@
   justify-content: center;
   align-items: center;
 }
-.card {
+.bg_card {
   padding: 15px;
   width: 20rem;
   height: 24rem;
+
+  box-shadow: 6px 5px 25px 0px rgba(0, 0, 0, 0.17);
+  -webkit-box-shadow: 6px 5px 25px 0px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 6px 5px 25px 0px rgba(0, 0, 0, 0.17);
+}
+
+.bg_formcard {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 15px;
 
   box-shadow: 6px 5px 25px 0px rgba(0, 0, 0, 0.17);
   -webkit-box-shadow: 6px 5px 25px 0px rgba(0, 0, 0, 0.17);

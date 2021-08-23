@@ -11,7 +11,7 @@ const Login = ({
 }) => {
   return (
     <div>
-      <Card className="card">
+      <Card className="bg_card">
         <Card.Body>
           <Container>
             <h2 className="text-info text-center">Client Login</h2>
