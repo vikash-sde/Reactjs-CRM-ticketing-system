@@ -3,11 +3,17 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import TicketTable from "./TicketTable";
 
 import tickets from "../assets/dummy-tickets.json";
+import PageBreadcrumb from "./PageBreadcrumb";
 
 const Dashboard = () => {
   return (
     <div>
       <Container>
+        <Row>
+          <Col className=" mt-2 ">
+            <PageBreadcrumb page="Dashboard" />
+          </Col>
+        </Row>
         <Row>
           <Col className="text-center mt-3 mb-2">
             <Button
@@ -32,7 +38,7 @@ const Dashboard = () => {
           <Col className=" mt-3 mb-2">Recently added tickets</Col>
         </Row>
         <Row>
-          <Col className="recent_ticket">
+          <Col className="recent_ticket mt-3">
             <TicketTable tickets={tickets} />
           </Col>
         </Row>
