@@ -2,31 +2,37 @@
   {
     "id": 1,
     "status": "Client respose pending",
+    "subject": "Issue with ssl certificate",
     "addDate": "2021-09-23"
   },
   {
     "id": 2,
     "status": "Client respose pending",
+    "subject": "Email verifiaction pending",
     "addDate": "2021-09-23"
   },
   {
     "id": 3,
     "status": "Client respose pending",
+    "subject": "mail issue",
     "addDate": "2021-09-23"
   },
   {
     "id": 4,
     "status": "Client respose pending",
+    "subject": "Pending tickets error",
     "addDate": "2021-09-23"
   },
   {
     "id": 5,
     "status": "Client respose pending",
+    "subject": "Issue with ssl certificate",
     "addDate": "2021-09-23"
   },
   {
     "id": 6,
     "status": "Client respose pending",
+    "subject": "Issue with ssl certificate",
     "addDate": "2021-09-23"
   }
 ]

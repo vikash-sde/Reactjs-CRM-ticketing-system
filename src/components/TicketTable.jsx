@@ -1,11 +1,11 @@
 import React from "react";
 import { Table } from "react-bootstrap";
 
-const TicketTable = ({ tickets }) => {
+const TicketTable = ({ dispTicket }) => {
   //   console.log(tickets);
   return (
     <div>
-      <Table striped bordered hover size="sm">
+      <Table striped bordered hover size="md">
         <thead>
           <tr>
             <th>#</th>
@@ -15,11 +15,11 @@ const TicketTable = ({ tickets }) => {
           </tr>
         </thead>
         <tbody>
-          {tickets.length ? (
-            tickets.map(({ id, status, addDate }) => (
+          {dispTicket.length ? (
+            dispTicket.map(({ id, status, addDate, subject }) => (
               <tr key={id}>
                 <td>{id}</td>
-                <td>ssl issue</td>
+                <td>{subject}</td>
                 <td>{status}</td>
                 <td>{addDate}</td>
               </tr>
