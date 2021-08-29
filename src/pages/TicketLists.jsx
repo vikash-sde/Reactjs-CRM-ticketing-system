@@ -5,6 +5,7 @@ import PageBreadcrumb from "../components/PageBreadcrumb";
 import SearchForm from "../components/SearchForm";
 import TicketTable from "../components/TicketTable";
 import tickets from "../assets/dummy-tickets.json";
+import { Link } from "react-router-dom";
 
 const TicketLists = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -40,9 +41,11 @@ const TicketLists = () => {
         </Row>
         <Row>
           <Col>
-            <Button variant="info" style={{ color: "white" }}>
-              Add New Ticket
-            </Button>
+            <Link to="/addticket">
+              <Button variant="info" style={{ color: "white" }}>
+                Add New Ticket
+              </Button>
+            </Link>
           </Col>
           <Col className="text-right">
             <SearchForm

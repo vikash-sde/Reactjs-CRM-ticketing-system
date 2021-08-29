@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Card, Container, Form, Row, Col } from "react-bootstrap";
+import { Button, Card, Form, Row, Col } from "react-bootstrap";
 import "../pages/entry.style.css";
 
 const AddTicketForm = ({ handleOnSubmit, handleOnChange, formData }) => {

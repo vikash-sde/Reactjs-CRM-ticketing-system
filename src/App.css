@@ -17,3 +17,13 @@ footer {
   padding: 1rem;
   color: white;
 }
+
+.link {
+  text-decoration: none;
+  margin-right: 10px;
+  color: rgb(236, 236, 236);
+}
+
+.link:hover {
+  color: white;
+}
